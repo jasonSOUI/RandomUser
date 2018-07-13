@@ -12,6 +12,8 @@
 		897031AB20F881E7008ADF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897031A920F881E7008ADF4C /* Main.storyboard */; };
 		897031AD20F881E9008ADF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897031AC20F881E9008ADF4C /* Assets.xcassets */; };
 		897031B020F881E9008ADF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897031AE20F881E9008ADF4C /* LaunchScreen.storyboard */; };
+		897031BA20F886D3008ADF4C /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897031B920F886D3008ADF4C /* NavigationViewController.swift */; };
+		897031BC20F8AC72008ADF4C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897031BB20F8AC72008ADF4C /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		897031AC20F881E9008ADF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897031AF20F881E9008ADF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		897031B120F881E9008ADF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897031B920F886D3008ADF4C /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		897031BB20F8AC72008ADF4C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				897031AC20F881E9008ADF4C /* Assets.xcassets */,
 				897031AE20F881E9008ADF4C /* LaunchScreen.storyboard */,
 				897031B120F881E9008ADF4C /* Info.plist */,
+				897031B920F886D3008ADF4C /* NavigationViewController.swift */,
+				897031BB20F8AC72008ADF4C /* TableViewController.swift */,
 			);
 			path = UserProfileAPI;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897031BA20F886D3008ADF4C /* NavigationViewController.swift in Sources */,
 				897031A820F881E7008ADF4C /* ViewController.swift in Sources */,
 				897031A620F881E7008ADF4C /* AppDelegate.swift in Sources */,
+				897031BC20F8AC72008ADF4C /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
